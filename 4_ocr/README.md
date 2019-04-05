@@ -21,4 +21,7 @@ Vous pouvez tester d'extraire le texte des images, dans l'ordre :
 
 Le cas d'usage que nous avons ici est basique et les images de plutôt bonne qualité. On peut imaginer d'autres cas d'usages où nous souhaitons, en plus d'extraire le texte, extraire certaines propriétés associées comme sa position ou l'inclinaison.
 
-Testez l'outil sur l'image `excel.jpg` et reconstituez les lignes de données.
+L'outil (Google Vision)[https://cloud.google.com/vision/] pour ce cas d'usage fonctionne mieux que Tesseract : 
+
+  - Descendez à la partie *Try the API* et uploadez le fichier `excel.jpg`.
+  - Examinez le contenu de l'onglet *Text*, voir qu'il est possible d'analyser et reconstituer le tableau Excel grâce à cet outil.
